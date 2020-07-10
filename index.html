@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="myscripts.js"></script>
+  <link rel="stylesheet" href="styles.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Join the Mailing List</title>
+</head>
+<body>
+  
+  
+<form name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post">
+  <p id=email-label>e-mail <span id=required-text>(required)</span>: <input type="text" name="email"></p>
+  
+  <p id=check-header-label>Which notifications would you like?
+  <span id=sub-header>*You will receive all email notifications if you check none.</span></p>
+  
+  <p>New Releases<input type="checkbox"></p>
+  <p>Short Story Publications<input type="checkbox"></p>
+  <p>Upcoming Events<input type="checkbox"></p>
+  <button type="submit" value="Submit">Submit</button>
+</form>
+</body>
+</html>

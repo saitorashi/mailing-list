@@ -1,0 +1,60 @@
+body {
+    background-color: #334;
+    font-family: sans-serif;
+    color: white;
+    background-image: url("https://cdn.pixabay.com/photo/2016/11/25/23/15/moon-1859616_960_720.jpg");
+    background-repeat: no-repeat;
+    height: 100%;
+      background-size: cover;
+      background-position: 50% 25%;
+      padding: 3em;
+  }
+  
+  form {
+    padding: 1em;
+  }
+  
+  #email-label {
+    font-size: 120%;
+  }
+  
+  #email {
+    padding-right: 70px; 
+  }
+  #required-text {
+    font-size: 75%;
+    color: orange;
+  }
+  
+  #check-header-label {
+    font-size: 115%;
+    font-weight: bold;
+  }
+  #sub-header {
+    font-size: 65%;
+    font-weight: 10;
+    color: orange;
+  }
+  
+  button {
+    padding: 10px;
+    background-color: red;
+    border-radius: 50px;
+    font-weight: bold;
+    color: white;
+    font-size: 120%;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
